@@ -126,9 +126,9 @@ p {
   display: inline-block;
   font-family: var(--font-secondary);
   color: var(--color-neutral-very-dark-desaturated-blue);
-  font-size: .9375rem;
+  font-size: 0.9375rem;
   font-weight: 900;
-  letter-spacing: .0625rem;
+  letter-spacing: 0.0625rem;
   text-transform: uppercase;
   position: relative;
   z-index: 1;
@@ -140,7 +140,7 @@ p {
   bottom: 0%;
   left: -5%;
   width: 110%;
-  height: .625rem;
+  height: 0.625rem;
   background-color: #808080;
   opacity: 25%;
   border-radius: 1.75rem;
@@ -191,7 +191,7 @@ p {
 .nav__toggle {
   border: none;
   background-color: transparent;
-  padding: .625rem;
+  padding: 0.625rem;
   cursor: pointer;
 }
 
@@ -213,7 +213,7 @@ p {
 
 .nav__link--outline {
   text-transform: uppercase;
-  font-size: .9375rem;
+  font-size: 0.9375rem;
   font-family: var(--font-secondary);
   background-color: var(--color-neutral-white);
   color: var(--color-neutral-very-dark-desaturated-blue);
@@ -233,7 +233,7 @@ p {
   font-size: clamp(2.5rem, 2.1479rem + 1.5023vw, 3.5rem);
   color: var(--color-neutral-white);
   text-transform: uppercase;
-  letter-spacing: .5469rem;
+  letter-spacing: 0.5469rem;
 }
 
 .hero {
@@ -369,7 +369,7 @@ p {
   font-size: 1.25rem;
   color: var(--color-neutral-grayish-blue);
   text-transform: uppercase;
-  letter-spacing: .3125rem;
+  letter-spacing: 0.3125rem;
   text-align: center;
   margin-bottom: 5.0625rem;
 }
@@ -416,7 +416,7 @@ p {
 
 .client__position {
   color: var(--color-neutral-grayish-blue);
-  font-size: .875rem;
+  font-size: 0.875rem;
   font-weight: 700;
   letter-spacing: -0.0063rem;
 }
@@ -556,6 +556,9 @@ p {
     padding-top: 5.5rem;
   }
 
+  .feature__img-wrap {
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 26.5625rem) {
@@ -578,7 +581,7 @@ p {
   }
 
   .clients__title {
-    font-size: clamp(1rem, .912rem + 0.3756vw, 1.25rem);
+    font-size: clamp(1rem, 0.912rem + 0.3756vw, 1.25rem);
   }
 
   .client__item {
